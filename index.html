@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Galeria de Fotos</h1>
+            <h2>Damon Slayer</h2>
+        </div>
+        <div class="gallery">
+            <img src="https://ovicio.com.br/wp-content/uploads/2022/12/20221228-demon-slayer-nezuko-555x555.webp" alt="Foto 1" class="foto" id="foto1">
+            <img src="https://i.redd.it/akasa-demon-slayer-vs-yujiro-hanma-baki-v0-aomnp7jv26ed1.jpg?width=1079&format=pjpg&auto=webp&s=cb214571d9f4b7a1a3cdd9463d55bd1cbec5beef" class="foto" id="foto2">
+            <img src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img61a06699053051.64701472.jpg?lastEdited=1637901979&w=600&h=600&f=webp" alt="Foto 3" class="foto" id="foto3">
+            <img src="https://ovicio.com.br/wp-content/uploads/2025/05/20250502-demon-slayer-555x555.webp" alt="Foto 4" class="foto" id="foto4">
+            <img src="https://preview.redd.it/97a5yqnl0aj51.png?width=1080&crop=smart&auto=webp&s=24fce5d25851177f5b56989e52b7e0a5dfe8d9cf" alt="Foto 5" class="foto" id="foto5">
+        </div>
+    
+    <div class="controls1">
+    <button id="prev" onclick="mudarFoto(-1)">←</button>
+    <button id="next" onclick="mudarFoto(1)">→</button>
+</div>
+
+
+        <!-- Miniaturas -->
+        <div class="thumbnails">
+            <img src="https://ovicio.com.br/wp-content/uploads/2022/12/20221228-demon-slayer-nezuko-555x555.webp" alt="Miniatura 1" class="thumbnail" onclick="mudarParaImagem(0)">
+            <img src="https://i.redd.it/akasa-demon-slayer-vs-yujiro-hanma-baki-v0-aomnp7jv26ed1.jpg?width=1079&format=pjpg&auto=webp&s=cb214571d9f4b7a1a3cdd9463d55bd1cbec5beef" alt="Miniatura 2" class="thumbnail" onclick="mudarParaImagem(1)">
+            <img src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img61a06699053051.64701472.jpg?lastEdited=1637901979&w=600&h=600&f=webp" alt="Miniatura 3" class="thumbnail" onclick="mudarParaImagem(2)">
+            <img src="https://ovicio.com.br/wp-content/uploads/2025/05/20250502-demon-slayer-555x555.webp" alt="Miniatura 4" class="thumbnail" onclick="mudarParaImagem(3)">
+            <img src="https://preview.redd.it/97a5yqnl0aj51.png?width=1080&crop=smart&auto=webp&s=24fce5d25851177f5b56989e52b7e0a5dfe8d9cf" alt="Miniatura 5" class="thumbnail" onclick="mudarParaImagem(4)">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
